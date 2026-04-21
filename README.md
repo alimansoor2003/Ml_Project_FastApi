@@ -51,6 +51,7 @@ Trained using Scikit-learn and saved with Joblib.
 ---
 ## How to Run
 -Install dependencies:
+
  pip install -r requirements.txt
 -Start PostgreSQL
  Make sure database is running locally.
