@@ -50,14 +50,13 @@ Trained using Scikit-learn and saved with Joblib.
 
 ---
 ## How to Run
--Install dependencies:
-
- pip install -r requirements.txt
--Start PostgreSQL
+1-Install dependencies:
+pip install -r requirements.txt
+2-Start PostgreSQL:
  Make sure database is running locally.
--Run server
+3-Run server:
  uvicorn main:app --reload
--Open API docs
+4-Open API docs:
  http://127.0.0.1:8000/docs
 
 ##  API Endpoints
