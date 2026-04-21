@@ -44,11 +44,20 @@ The model predicts house prices based on:
 
 - Area
 - Number of bedrooms
-- Location (basic encoding)
+- Location 
 
 Trained using Scikit-learn and saved with Joblib.
 
 ---
+## How to Run
+-Install dependencies:
+ pip install -r requirements.txt
+-Start PostgreSQL
+ Make sure database is running locally.
+-Run server
+ uvicorn main:app --reload
+-Open API docs
+ http://127.0.0.1:8000/docs
 
 ##  API Endpoints
 
@@ -71,13 +80,5 @@ Response:
   "prediction": 255555.55
 }
 
-## How to Run
--Install dependencies:
- pip install -r requirements.txt
--Start PostgreSQL
- Make sure database is running locally.
--Run server
- uvicorn main:app --reload
--Open API docs
- http://127.0.0.1:8000/docs
+
  
